@@ -18,3 +18,9 @@ function calc() {
   }
   
   calc();
+
+
+// In this function I created 4 variables of which 2 are numbers, the 3rd is the operation variable,
+// and the 4th is the result variable. I then used else if function to make 4 different results depending on the operation 
+//chosen in the function. The console log then outputs a string that says the result of *variable 1 
+// then (operation variable) variable 2 is (result variable.)
