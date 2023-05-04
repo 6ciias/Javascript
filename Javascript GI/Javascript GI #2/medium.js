@@ -13,7 +13,7 @@ let months = [
   "November",
   "December"
 ];
-input = 13
+input = 9
 // We made a variable called months and then added arrays for all of the months. 
 
 if (input >= 1 && input <= 12) {

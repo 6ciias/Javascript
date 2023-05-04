@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Lexend,sans-serif;
+    }
+    @font-face {
+        font-family: 'Italian Plate No2 Expanded';
+        src: url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.eot');
+        src: url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.eot?#iefix') format('embedded-opentype'), url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.woff2') format('woff2'), url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.woff') format('woff');
+        font-weight: 700;
+        font-style: normal;
+      }
+    
+ .navbar h1{
+    color: black);
+    font-family: 'Italian Plate No2 Expanded';
+   position: absolute;
+   left: 7%;
+   top: 7%;
+   text-shadow: 2px 2px #fffefe54;
+ }   
+.banner{
+    width:100%;
+    height:100vh;
+    margin-top: 15px;
+    background-image:linear-gradient(rgba(0,0,0,0.80),rgba(141, 8, 123, 0.85)),url(galaxywallpaper.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+  display: flex;
+  width:48px;
+  height:48px;
+  cursor:pointer;
+  }
+ 
+  .navbar {
+    width:95%;
+    margin: auto;
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+   
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        left:80%;
+        margin: 0 25px;
+        margin-right: 1px;
+        position: relative;
+        }
+
+    .navbar ul li a{
+    font-size: 18px;
+    color: black;
+    }
+    .navbar ul li::after{
+      content:" ";
+      height:3px;
+      width: 0%;
+      background: #df32f6;
+      position: absolute;
+      left: 0%;
+      bottom:-10px;
+      transition: width 0.3s ease-in-out;
+      }
+      
+      .navbar ul li:hover::after{
+      width: 100%;
+      }
+
+      
+
+    .cart{
+        width:30px;
+        height:30px;
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+        position: relative;
+      }
+    
+    .content{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 2%;
+        transform: translateY(-50%);
+        text-align: left;
+        color: #fff;
+        }
+        
+        .content h1{
+        font-size: 60px;
+        margin-top: 80px;
+        color: #fff;
+        }
+        
+        .content h2{
+        font-size: 60px;
+        margin-top: 20px;
+        }
+        .content h2{
+         font-size: 60px;
+         margin-top: 20px;
+         color: #df32f6;
+        }
+
+        .content p{
+        margin: 20px auto;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+        }
+
+  button {
+  width: 175px;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  border: 2px solid #df32f6;
+  background: linear-gradient(to right, #df32f6 , #b00ac6);;
+  color:#fff;
+  cursor: pointer;
+  position: relative;
+  }
+
+  button :hover{
+
+  }
+ 
+.container {
+position: absolute;
+right: 14%;
+bottom: 15%;
+border: 22px solid rgba(238, 182, 213, 0.261);
+border-radius: 30px;
+}
+
+.bartwo{
+  background: linear-gradient(to right, #df32f6 , #b00ac6);;
+text-transform: uppercase;
+color: white;
+text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+}
+
+.section-2{
+background-color: white;
+}
+  
+  .content-2 h1{
+  position: relative;
+  text-align: center;
+  font-family: 'Italian Plate No2 Expanded';
+  font-size: 80px;
+  margin-top: 100px;
+  color: black;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 40px;
+  }
+  .product {
+    padding: 20px;
+    text-align: center;
+  }
+  .product img {
+   width: 350px;
+   height: 350px;
+  }
+.product h2{
+font-family: 'Italian Plate No2 Expanded';
+font-size: 30px;
+padding: 15px;
+
+}
+  .product p{
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+  }
